@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Oswald&family=Ubuntu:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CBC3E3;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: yellow; */
+    padding: 25px 0 0 0;
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    padding-bottom: 25px;
+}
+
+
+li {
+    list-style-type: none;
+    padding: 0 25px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.live-link:hover {
+    background-color: purple;
+}
+
+.repo:hover {
+    background-color: purple;
+}
+
+.myself {
+    background-image: url("https://images.unsplash.com/photo-1585758907038-2e1c09d84f75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    text-align: center;
+    font-size: 30px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.myName {
+    margin: 0;
+    padding: 250px 0 0 0;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+
+.codeTitle {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    font-size: 40px;
+    text-transform: uppercase
+}
+
+
+
+.sectionOne {
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+    height: 100vh;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.about-myself {
+    width: 50%;
+}
+
+.about-me {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 25px 0;
+}
+
+.description, .other {
+    font-size: 20px;
+    width: 80%;
+    line-height: 30px; 
+    text-align: justify; 
+}
+
+
+
+.favouritesOne {
+    padding-top: 50px;
+    display: flex;
+     justify-content: center;
+     background-color: yellow;
+     font-size: 20px;
+     text-transform: uppercase;
+     padding: 0;
+     margin: 0;
+    /* gap: 50px; */ 
+}
+
+.favLanguage {
+    padding-left: 135px;
+    padding-right: 145px;
+}
+
+.favouritesTwo {
+    display: flex;
+     justify-content: center;
+     text-transform: uppercase;
+    /* gap: 50px; */
+    background-color: pink;
+         padding: 0;
+     margin: 0;
+}
+
+.myCity {
+    padding-left: 5px;
+    padding-right: 315px;
+}
+
+.newSection {
+    font-size: 20px;
+    text-align: center;
+    padding: 75px 0 0 0;
+    margin: 0;
+    /* background-color: orange; */
+}
+
+.skillsHeader {
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+    margin: 0;
+    
+}
+
+.skilsText {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.skillSetsOne {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 75px;
+}
+
+.skillSetsTwo {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 75px;
+}
+
+.skillSetsThree {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 75px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 130px;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 130px;
+}
+
+.devicon-mongodb-plain, .devicon-express-original {
+    color: white;
+    font-size: 130px;
+}
+
+img {
+    width: 200px;
+}
+
+.skills {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.skillsText {
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.projects {
+    background-color: #CBC3E3;
+    color: black;
+}
+
+.projectSkills {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 40px 0px;
+}
+
+.projectOne {
+    display: flex;
+    align-items: center;
+    border: 3px solid purple;
+    border-radius: 5%;
+    padding-bottom: 20px;
+    margin: 45px;
+}
+
+.projectImage {
+    width: 850px;
+    padding-right: 205px;
+    padding-top: 20px;
+}
+
+.project {
+    padding-left: 155px;
+}
+
+.usedCode {
+    font-size: 24px;
+}
+
+.projectText {
+    font-size: 24px;
+    width: 60%;
+}
+
+.projectTwo {
+    display: flex;
+    align-items: center;
+    border: 3px solid purple;
+    border-radius: 5%;
+    padding-bottom: 20px;
+    margin: 45px;
+}
+
+.projectThree {
+    display: flex;
+    align-items: center;
+    border: 3px solid purple;
+    border-radius: 5%;
+    padding-bottom: 20px;
+    margin: 20px 45px;
+}
+
+.live-link {
+    background-color: #CBC3E3;
+    padding: 15px 15px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.repo {
+    background-color: #CBC3E3;
+    padding: 15px 15px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.contact-us {
+    background-color: black;
+    text-align: center;
+    height: 100vh;
+}
+
+.getInTouch {
+    color: white;
+    margin: 0;
+    padding: 25px;
+}
+
+.questions {
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.contact-Form {
+    color: white;
+}
+
+.contacts {
+    border: 3px solid white;
+    border-radius: 5%;
+    margin: 0px 155px;
+}
+
+.yourName {
+    font-size: 24px;
+    color: white;
+}
+
+#fullName {
+    background-color: black;
+    border: none;
+    border-bottom: 3px solid white;
+}
+
+.yourEmail {
+    font-size: 24px;
+    color: white;
+}
+
+#email {
+    background-color: black;
+    border: none;
+    border-bottom: 3px solid white;
+}
+
+.yourSubject {
+    font-size: 24px;
+    color: white;
+}
+
+#subject {
+    background-color: black;
+    border: none;
+    border-bottom: 3px solid white;
+}
+
+.yourMessage {
+    font-size: 24px;
+    color: white;
+}
+
+#message {
+   background-color: black;
+   border: 2px solid white; 
+}
+
+input, textarea {
+    color: white;
+}
+
+.submit {
+    margin: 15px 0;
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.submit:hover {
+    background-color: purple;
+}
+
+footer { 
+    background-color: #CBC3E3;
+    margin:0;
+    padding-top: 10px;
+}
+
+footer p {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+
+}
