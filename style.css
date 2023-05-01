@@ -91,6 +91,10 @@ a {
     width: 50%;
 }
 
+.myself-image {
+    width: 375px;
+}
+
 .about-me {
     text-align: center;
     font-size: 30px;
