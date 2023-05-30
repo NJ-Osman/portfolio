@@ -236,6 +236,10 @@ img {
     margin: 45px;
 }
 
+.pokemonProject {
+    align-items: center;
+}
+
 .projectImage {
     width: 850px;
     padding-right: 205px;
@@ -243,7 +247,7 @@ img {
 }
 
 .project {
-    padding-left: 155px;
+    padding-left: 52px;
 }
 
 .usedCode {
@@ -252,7 +256,7 @@ img {
 
 .projectText {
     font-size: 24px;
-    width: 60%;
+    width: 100%;
 }
 
 .projectTwo {
@@ -278,6 +282,7 @@ img {
     padding: 15px 15px;
     border-radius: 25px;
     font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .repo {
@@ -290,7 +295,7 @@ img {
 .contact-us {
     background-color: black;
     text-align: center;
-    height: 100vh;
+    height: 113vh;
 }
 
 .getInTouch {
@@ -377,7 +382,7 @@ input, textarea {
 footer { 
     background-color: #CBC3E3;
     margin:0;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 footer p {
